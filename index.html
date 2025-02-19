@@ -53,7 +53,7 @@
   </head>
   <body class="">
     <div
-      class="container text-white d-flex flex-column justify-content-center align-items-center"
+      class="container text-white d-flex flex-column justify-content-center align-items-center d-none"
     >
       <h1 class="text-center mt-5">DiceX</h1>
       <img
@@ -62,6 +62,35 @@
         class="dice-hero"
       />
       <div id="container" class="m-auto w-75"></div>
+    </div>
+    <div class="container container-2">
+      <div class="d-flex text-center">
+        <div class="flex-grow-1 marks" id="player-1">1</div>
+        <div class="flex-grow-1 marks" id="player-2">2</div>
+      </div>
+      <div class="dice-container">
+        <div class="active">
+          <img src="./assets/images/dice-1.png" alt="" />
+        </div>
+        <div class="d-none">
+          <img src="assets/images/dice-2.png" alt="" />
+        </div>
+        <div class="d-none">
+          <img src="./assets/images/dice-3.png" alt="" />
+        </div>
+        <div class="d-none">
+          <img src="assets/images/dice-4.png" alt="" />
+        </div>
+        <div class="d-none">
+          <img src="assets/images/dice-5.png" alt="" />
+        </div>
+        <div class="d-none">
+          <img src="assets/images/dice-6.png" alt="" />
+        </div>
+      </div>
+      <div class="w-100 d-flex justify-content-center">
+        <button class="roll-btn" id="roll-btn">Roll</button>
+      </div>
     </div>
 
     <!-- External JS  -->
