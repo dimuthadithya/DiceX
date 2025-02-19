@@ -38,11 +38,10 @@ body {
   display: flex;
   background-color: #000;
   flex-direction: column;
-  font-family: "Poppins", sans-serif;
+  font-family: "Silkscreen", serif;
 }
 
 h1 {
-  font-family: "Silkscreen", serif;
   opacity: 1;
   font-size: 60px;
   animation: shade 2s ease-in infinite;
